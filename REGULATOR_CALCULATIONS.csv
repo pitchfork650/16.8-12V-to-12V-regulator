@@ -1,0 +1,34 @@
+﻿MC34063A Switching Regulator ,,,,,,,,,
+,,,,,,,,,
+Calculated Values,Buck,,,Boost,,Standardized Values,,,
+Device ,Jetson,Camera,Servo output,Rocket AC,,Jetson,Camera,Servo Output,Rocket AC
+Vout,12,8,5,24,,,,,
+VF,0.6,0.6,0.6,0.6,,,,,
+Vin(min),14.83,14.83,14.83,14.83,,,,,
+Vsat (non-Darlington),0.7,0.7,0.7,0.7,,,,,
+Iout,1.5,1.5,1.5,0.5,,,,,
+ton/toff,5.92,1.40,0.61,6.91E-01,,,,,
+ton,8.55E-06,5.83842E-06,3.80177E-06,4.09E-06,,,,,
+fmin (Hz),100000,100000,100000,100000,,,,,
+Vripple(pp),0.2,0.2,0.2,0.2,,,,,
+Ipk(switch),3,3,3,1.69E+00,,,,,
+C_T (timing),3.42E-10,2.34E-10,1.52E-10,1.64E-10,,340 pF,240 pF,160 pF,160 pF
+R_SC (shunt),0.10,0.10,0.10,0.18,,,,,
+Lmin,6.07E-06,1.19E-05,1.16E-05,3.41E-05,,,12 uH,12 uH,36 uH
+Co,0.00001875,0.00001875,0.00001875,9.20E-05,,,390 uF,240 uF,100 uF
+Vout = 1.25(1 + R2/R1),,,,,,,,,
+R2/R1,8.6,5.4,3,18.2,,,,,
+R1,1200,1200,1200,1200,use smaller ,,1200,1200,1200
+R2,10320,6480,3600,21840,,,,,
+,,,,,,,,,
+Bill of Materials ,value,amount,area,length (mm),width (mm),height,unit price,manufacturer product #,Digikey product #
+capacitors,240 uF,1,,16.5,20,,$1.55 ,EMHS800GRA241MKG5S,565-5090-1-ND
+,160 pF,2,,1.6,0.8,,$0.10 ,0603N161J500CT,1292-1491-1-ND
+,390 uF,1,,10.2,8,,$0.84 ,EEE-FT1V391UP,P122429CT-ND
+,100 uF,1,,5.4,6.3,,$0.30 ,UWX1C101MCL1GB,493-2105-1-ND
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+inductors,12 uH,2,,12.5,12.5,,$1.09 ,SRR1260-120M,SRR1260-120MCT-ND
+,,,,,,,,,
+resistors,1200 Ω,4,,1,0.5,,$0.39 ,ERA-2AEB122X,P1.2KDCCT-ND
