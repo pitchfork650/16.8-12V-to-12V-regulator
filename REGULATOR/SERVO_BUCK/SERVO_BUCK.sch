@@ -1,0 +1,274 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Switching:MC34063AD U?
+U 1 1 6015AF60
+P 3350 1550
+F 0 "U?" H 3350 2017 50  0000 C CNN
+F 1 "MC34063AD" H 3350 1926 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3400 1100 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF" H 3850 1450 50  0001 C CNN
+	1    3350 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6015E475
+P 3350 2100
+F 0 "#PWR?" H 3350 1850 50  0001 C CNN
+F 1 "GND" H 3355 1927 50  0000 C CNN
+F 2 "" H 3350 2100 50  0001 C CNN
+F 3 "" H 3350 2100 50  0001 C CNN
+	1    3350 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 2500 1350
+Wire Wire Line
+	2500 1350 2950 1350
+$Comp
+L Device:R R?
+U 1 1 6016C72C
+P 3350 950
+F 0 "R?" V 3143 950 50  0000 C CNN
+F 1 "0.1" V 3234 950 50  0000 C CNN
+F 2 "" V 3280 950 50  0001 C CNN
+F 3 "~" H 3350 950 50  0001 C CNN
+	1    3350 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 6016D94C
+P 4450 1950
+F 0 "L?" H 4503 1996 50  0000 L CNN
+F 1 "12u" H 4503 1905 50  0000 L CNN
+F 2 "" H 4450 1950 50  0001 C CNN
+F 3 "~" H 4450 1950 50  0001 C CNN
+	1    4450 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N5819 D?
+U 1 1 6016EB8C
+P 4250 1300
+F 0 "D?" H 4250 1083 50  0000 C CNN
+F 1 "1N5819" H 4250 1174 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4250 1125 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 4250 1300 50  0001 C CNN
+	1    4250 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6017042D
+P 4450 2350
+F 0 "C?" H 4565 2396 50  0000 L CNN
+F 1 "300u" H 4565 2305 50  0000 L CNN
+F 2 "" H 4488 2200 50  0001 C CNN
+F 3 "~" H 4450 2350 50  0001 C CNN
+	1    4450 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 601718EE
+P 3750 2450
+F 0 "R?" H 3820 2496 50  0000 L CNN
+F 1 "1.2k" H 3820 2405 50  0000 L CNN
+F 2 "" V 3680 2450 50  0001 C CNN
+F 3 "~" H 3750 2450 50  0001 C CNN
+	1    3750 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 1350 2500 950 
+Wire Wire Line
+	2500 950  3200 950 
+Wire Wire Line
+	3500 950  3900 950 
+Wire Wire Line
+	3900 1350 3750 1350
+$Comp
+L power:GND #PWR?
+U 1 1 60174AFD
+P 4400 950
+F 0 "#PWR?" H 4400 700 50  0001 C CNN
+F 1 "GND" H 4405 777 50  0000 C CNN
+F 2 "" H 4400 950 50  0001 C CNN
+F 3 "" H 4400 950 50  0001 C CNN
+	1    4400 950 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2800 1750 2950 1750
+Wire Wire Line
+	2800 2050 2800 2100
+Connection ~ 2500 2100
+Wire Wire Line
+	2500 2100 2800 2100
+Wire Wire Line
+	3350 2050 3350 2100
+$Comp
+L power:GND #PWR?
+U 1 1 6017BC89
+P 2500 2200
+F 0 "#PWR?" H 2500 1950 50  0001 C CNN
+F 1 "GND" H 2505 2027 50  0000 C CNN
+F 2 "" H 2500 2200 50  0001 C CNN
+F 3 "" H 2500 2200 50  0001 C CNN
+	1    2500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6017C4F8
+P 3750 2700
+F 0 "#PWR?" H 3750 2450 50  0001 C CNN
+F 1 "GND" H 3755 2527 50  0000 C CNN
+F 2 "" H 3750 2700 50  0001 C CNN
+F 3 "" H 3750 2700 50  0001 C CNN
+	1    3750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6017CB8A
+P 4450 2700
+F 0 "#PWR?" H 4450 2450 50  0001 C CNN
+F 1 "GND" H 4455 2527 50  0000 C CNN
+F 2 "" H 4450 2700 50  0001 C CNN
+F 3 "" H 4450 2700 50  0001 C CNN
+	1    4450 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2500 4450 2700
+Wire Wire Line
+	3750 2600 3750 2700
+Wire Wire Line
+	2500 2200 2500 2100
+$Comp
+L Device:C C?
+U 1 1 601AF956
+P 2500 1600
+F 0 "C?" H 2615 1646 50  0000 L CNN
+F 1 "100u" H 2615 1555 50  0000 L CNN
+F 2 "" H 2538 1450 50  0001 C CNN
+F 3 "~" H 2500 1600 50  0001 C CNN
+	1    2500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 601F0DC6
+P 2800 1900
+F 0 "C?" H 2915 1946 50  0000 L CNN
+F 1 "160p" H 2915 1855 50  0000 L CNN
+F 2 "" H 2838 1750 50  0001 C CNN
+F 3 "~" H 2800 1900 50  0001 C CNN
+	1    2800 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 1450 3900 1450
+Wire Wire Line
+	3900 950  3900 1350
+Connection ~ 3900 1350
+Wire Wire Line
+	3900 1350 3900 1450
+Wire Wire Line
+	3900 1450 3900 1550
+Wire Wire Line
+	3900 1550 3750 1550
+Connection ~ 3900 1450
+$Comp
+L Device:R R?
+U 1 1 601FCAC3
+P 4100 2200
+F 0 "R?" V 3893 2200 50  0000 C CNN
+F 1 "3.6k" V 3984 2200 50  0000 C CNN
+F 2 "" V 4030 2200 50  0001 C CNN
+F 3 "~" H 4100 2200 50  0001 C CNN
+	1    4100 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 1750 4250 1750
+Wire Wire Line
+	4450 2100 4450 2200
+Wire Wire Line
+	4250 1750 4250 1450
+Wire Wire Line
+	4250 1150 4250 950 
+Wire Wire Line
+	4250 950  4400 950 
+Wire Wire Line
+	4450 1750 4450 1800
+Wire Wire Line
+	2500 1350 2500 1450
+Wire Wire Line
+	1850 1350 2500 1350
+Wire Wire Line
+	2500 1750 2500 2100
+Wire Wire Line
+	4250 2200 4450 2200
+Wire Wire Line
+	3950 2200 3750 2200
+Wire Wire Line
+	3750 1850 3750 2200
+Connection ~ 3750 2200
+Wire Wire Line
+	3750 2200 3750 2300
+Connection ~ 4450 2200
+Wire Wire Line
+	4450 1750 4250 1750
+Connection ~ 4250 1750
+Text GLabel 1850 1350 0    50   Input ~ 0
+Vs
+$Comp
+L Simulation_SPICE:VDC Battery
+U 1 1 6026B641
+P 900 1700
+F 0 "Battery" H 1030 1791 50  0000 L CNN
+F 1 "15" H 1030 1700 50  0000 L CNN
+F 2 "" H 900 1700 50  0001 C CNN
+F 3 "~" H 900 1700 50  0001 C CNN
+F 4 "Y" H 900 1700 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 900 1700 50  0001 L CNN "Spice_Primitive"
+F 6 "dc(1)" H 1030 1609 50  0000 L CNN "Spice_Model"
+	1    900  1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  1900 900  2250
+Text GLabel 900  1500 0    50   Input ~ 0
+Vs
+$Comp
+L power:GND #PWR?
+U 1 1 601F0935
+P 900 2250
+F 0 "#PWR?" H 900 2000 50  0001 C CNN
+F 1 "GND" H 905 2077 50  0000 C CNN
+F 2 "" H 900 2250 50  0001 C CNN
+F 3 "" H 900 2250 50  0001 C CNN
+	1    900  2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 4950 2200 2    50   Input ~ 0
+Vo_servo
+Wire Wire Line
+	4450 2200 4950 2200
+$EndSCHEMATC
