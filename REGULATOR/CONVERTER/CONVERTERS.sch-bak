@@ -55,7 +55,7 @@ U 1 1 6020B5BA
 P 4600 2850
 F 0 "D3" H 4600 2633 50  0000 C CNN
 F 1 "1N5819" H 4600 2724 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4600 2675 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4600 2675 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 4600 2850 50  0001 C CNN
 	1    4600 2850
 	0    -1   -1   0   
@@ -312,7 +312,7 @@ U 1 1 6016EB8C
 P 4550 950
 F 0 "D1" H 4550 733 50  0000 C CNN
 F 1 "1N5819" H 4550 824 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4550 775 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4550 775 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 4550 950 50  0001 C CNN
 	1    4550 950 
 	0    -1   -1   0   
@@ -521,7 +521,7 @@ U 1 1 6021605F
 P 5050 6800
 F 0 "D4" H 5050 6583 50  0000 C CNN
 F 1 "1N5819" H 5050 6674 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5050 6625 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5050 6625 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 5050 6800 50  0001 C CNN
 	1    5050 6800
 	0    -1   -1   0   
@@ -791,7 +791,7 @@ U 1 1 60538A7E
 P 4550 4600
 F 0 "D2" H 4550 4383 50  0000 C CNN
 F 1 "1N5819" H 4550 4474 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4550 4425 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4550 4425 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 4550 4600 50  0001 C CNN
 	1    4550 4600
 	0    -1   -1   0   
@@ -1103,17 +1103,6 @@ F 3 "~" H 7800 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J1
-U 1 1 6028FAF1
-P 6300 1600
-F 0 "J1" H 6408 1781 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 6408 1690 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6300 1600 50  0001 C CNN
-F 3 "~" H 6300 1600 50  0001 C CNN
-	1    6300 1600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x02_Male J2
 U 1 1 6029E638
 P 6400 6850
@@ -1124,8 +1113,6 @@ F 3 "~" H 6400 6850 50  0001 C CNN
 	1    6400 6850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6300 1600 6000 1600
 Wire Wire Line
 	6000 1600 6000 1500
 Wire Wire Line
@@ -1138,16 +1125,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0122
 U 1 1 602AED2C
-P 6300 1800
-F 0 "#PWR0122" H 6300 1550 50  0001 C CNN
-F 1 "GND" H 6305 1627 50  0000 C CNN
-F 2 "" H 6300 1800 50  0001 C CNN
-F 3 "" H 6300 1800 50  0001 C CNN
-	1    6300 1800
+P 6400 1800
+F 0 "#PWR0122" H 6400 1550 50  0001 C CNN
+F 1 "GND" H 6405 1627 50  0000 C CNN
+F 2 "" H 6400 1800 50  0001 C CNN
+F 3 "" H 6400 1800 50  0001 C CNN
+	1    6400 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6300 1700 6300 1800
 $Comp
 L Connector:Conn_01x02_Male J4
 U 1 1 602B8209
@@ -1455,4 +1440,19 @@ F 3 "~" H 3200 7000 50  0001 C CNN
 	1    3200 7000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 6028FAF1
+P 6600 1600
+F 0 "J1" H 6650 1650 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6700 1750 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6600 1600 50  0001 C CNN
+F 3 "~" H 6600 1600 50  0001 C CNN
+	1    6600 1600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1600 6400 1600
+Wire Wire Line
+	6400 1800 6400 1700
 $EndSCHEMATC

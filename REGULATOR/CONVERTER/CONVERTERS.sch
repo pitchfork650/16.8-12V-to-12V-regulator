@@ -1094,38 +1094,25 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Male J5
 U 1 1 6028A695
-P 7800 4250
-F 0 "J5" H 7908 4431 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 7908 4340 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7800 4250 50  0001 C CNN
-F 3 "~" H 7800 4250 50  0001 C CNN
-	1    7800 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J1
-U 1 1 6028FAF1
-P 6300 1600
-F 0 "J1" H 6408 1781 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 6408 1690 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6300 1600 50  0001 C CNN
-F 3 "~" H 6300 1600 50  0001 C CNN
-	1    6300 1600
-	1    0    0    -1  
+P 8000 4250
+F 0 "J5" H 8108 4431 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 8108 4340 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8000 4250 50  0001 C CNN
+F 3 "~" H 8000 4250 50  0001 C CNN
+	1    8000 4250
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x02_Male J2
 U 1 1 6029E638
-P 6400 6850
-F 0 "J2" H 6508 7031 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 6508 6940 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6400 6850 50  0001 C CNN
-F 3 "~" H 6400 6850 50  0001 C CNN
-	1    6400 6850
-	1    0    0    -1  
+P 6600 6850
+F 0 "J2" H 6708 7031 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6708 6940 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6600 6850 50  0001 C CNN
+F 3 "~" H 6600 6850 50  0001 C CNN
+	1    6600 6850
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	6300 1600 6000 1600
 Wire Wire Line
 	6000 1600 6000 1500
 Wire Wire Line
@@ -1138,26 +1125,24 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0122
 U 1 1 602AED2C
-P 6300 1800
-F 0 "#PWR0122" H 6300 1550 50  0001 C CNN
-F 1 "GND" H 6305 1627 50  0000 C CNN
-F 2 "" H 6300 1800 50  0001 C CNN
-F 3 "" H 6300 1800 50  0001 C CNN
-	1    6300 1800
+P 6400 1800
+F 0 "#PWR0122" H 6400 1550 50  0001 C CNN
+F 1 "GND" H 6405 1627 50  0000 C CNN
+F 2 "" H 6400 1800 50  0001 C CNN
+F 3 "" H 6400 1800 50  0001 C CNN
+	1    6400 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6300 1700 6300 1800
 $Comp
 L Connector:Conn_01x02_Male J4
 U 1 1 602B8209
-P 7800 3050
-F 0 "J4" H 7908 3231 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 7908 3140 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7800 3050 50  0001 C CNN
-F 3 "~" H 7800 3050 50  0001 C CNN
-	1    7800 3050
-	1    0    0    -1  
+P 8000 3050
+F 0 "J4" H 8108 3231 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 8108 3140 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8000 3050 50  0001 C CNN
+F 3 "~" H 8000 3050 50  0001 C CNN
+	1    8000 3050
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	7800 4250 7550 4250
@@ -1205,7 +1190,7 @@ F 1 "GND" H 7805 3077 50  0000 C CNN
 F 2 "" H 7800 3250 50  0001 C CNN
 F 3 "" H 7800 3250 50  0001 C CNN
 	1    7800 3250
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	7800 3150 7800 3250
@@ -1229,13 +1214,13 @@ Camera Gimbal
 $Comp
 L Connector:Conn_01x02_Male J3
 U 1 1 60314DEA
-P 7100 1600
-F 0 "J3" H 7208 1781 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 7208 1690 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7100 1600 50  0001 C CNN
-F 3 "~" H 7100 1600 50  0001 C CNN
-	1    7100 1600
-	1    0    0    -1  
+P 7300 1600
+F 0 "J3" H 7408 1781 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 7408 1690 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7300 1600 50  0001 C CNN
+F 3 "~" H 7300 1600 50  0001 C CNN
+	1    7300 1600
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0126
@@ -1341,13 +1326,13 @@ Connection ~ 9200 1000
 $Comp
 L Connector:Conn_01x02_Male J6
 U 1 1 60406D50
-P 10150 1000
-F 0 "J6" H 10258 1181 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 10258 1090 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10150 1000 50  0001 C CNN
-F 3 "~" H 10150 1000 50  0001 C CNN
-	1    10150 1000
-	1    0    0    -1  
+P 10350 1000
+F 0 "J6" H 10458 1181 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 10458 1090 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10350 1000 50  0001 C CNN
+F 3 "~" H 10350 1000 50  0001 C CNN
+	1    10350 1000
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	10150 1000 9850 1000
@@ -1455,4 +1440,19 @@ F 3 "~" H 3200 7000 50  0001 C CNN
 	1    3200 7000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 6028FAF1
+P 6600 1600
+F 0 "J1" H 6650 1650 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6700 1750 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6600 1600 50  0001 C CNN
+F 3 "~" H 6600 1600 50  0001 C CNN
+	1    6600 1600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1600 6400 1600
+Wire Wire Line
+	6400 1800 6400 1700
 $EndSCHEMATC
