@@ -1,0 +1,21 @@
+Circuit: * C:\Users\hecto\Documents\UCSD\tuas\powerboard\MC34063_boost_rocket.asc
+
+Per .tran options, skipping operating point for transient analysis.
+
+Date: Sat Apr 16 13:31:35 2022
+Total elapsed time: 16.632 seconds.
+
+tnom = 27
+temp = 27
+method = Gear
+totiter = 2684462
+traniter = 2684462
+tranpoints = 841766
+accept = 657248
+rejected = 184518
+matrix size = 39
+fillins = 33
+solver = Normal
+Matrix Compiler1: 3.09 KB object code size  0.7/0.9/[0.3]
+Matrix Compiler2: 3.30 KB object code size  0.3/0.5/[0.3]
+
