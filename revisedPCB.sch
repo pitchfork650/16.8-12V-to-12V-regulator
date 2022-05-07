@@ -277,7 +277,7 @@ U 1 1 6186F15C
 P 1150 1500
 F 0 "Battery1" H 1378 1546 50  0000 L CNN
 F 1 "15" H 1378 1455 50  0000 L CNN
-F 2 "" H 1150 1500 50  0001 C CNN
+F 2 "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" H 1150 1500 50  0001 C CNN
 F 3 "~" H 1150 1500 50  0001 C CNN
 F 4 "V" H 1150 1500 50  0001 C CNN "Spice_Primitive"
 F 5 "dc 15" H 1150 1500 50  0001 C CNN "Spice_Model"
@@ -790,7 +790,7 @@ F 3 "" H 5350 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6000 4600 2    50   Input ~ 0
-Vo_Servos&Comms
+Vo_Servos
 Wire Wire Line
 	4950 4600 5350 4600
 Connection ~ 5350 4600
