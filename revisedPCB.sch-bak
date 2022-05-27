@@ -542,7 +542,7 @@ U 1 1 62636859
 P 2800 4900
 F 0 "U3" H 3050 4450 50  0000 C CNN
 F 1 "LT3430-1" H 3100 4350 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14-1EP_4.4x5mm_P0.65mm" H 2850 4450 50  0001 L CNN
+F 2 "Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm" H 2850 4450 50  0001 L CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/34301fa.pdf" H 2800 4800 50  0001 C CNN
 	1    2800 4900
 	1    0    0    -1  
@@ -595,7 +595,7 @@ U 1 1 626709C0
 P 3450 4550
 F 0 "C8" H 3565 4596 50  0000 L CNN
 F 1 "1.5u" H 3565 4505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3488 4400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3488 4400 50  0001 C CNN
 F 3 "~" H 3450 4550 50  0001 C CNN
 	1    3450 4550
 	1    0    0    -1  
@@ -790,7 +790,7 @@ F 3 "" H 5350 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6000 4600 2    50   Input ~ 0
-Vo_Servos&Comms
+Vo_Servos
 Wire Wire Line
 	4950 4600 5350 4600
 Connection ~ 5350 4600
@@ -820,7 +820,7 @@ U 1 1 626B30E9
 P 3150 6600
 F 0 "U4" H 3400 6150 50  0000 C CNN
 F 1 "LT3430-1" H 3450 6050 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14-1EP_4.4x5mm_P0.65mm" H 3200 6150 50  0001 L CNN
+F 2 "Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm" H 3200 6150 50  0001 L CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/34301fa.pdf" H 3150 6500 50  0001 C CNN
 	1    3150 6600
 	1    0    0    -1  
@@ -873,7 +873,7 @@ U 1 1 626B34C8
 P 3800 6250
 F 0 "C13" H 3915 6296 50  0000 L CNN
 F 1 "1.5u" H 3915 6205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3838 6100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3838 6100 50  0001 C CNN
 F 3 "~" H 3800 6250 50  0001 C CNN
 	1    3800 6250
 	1    0    0    -1  
